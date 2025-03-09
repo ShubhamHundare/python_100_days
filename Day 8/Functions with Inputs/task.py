@@ -1,6 +1,6 @@
-def greet_with_name(name, age):
+def greet_with_name(name, location):
     print(f"Hi {name}, how are you?")
-    print(f"You are {age} years old")
+    print(f"You are from {location}.")
 
 
-greet_with_name("Shubham",24)
+greet_with_name(name="Shubham",location="Pune")
